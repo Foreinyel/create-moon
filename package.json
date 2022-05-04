@@ -1,0 +1,26 @@
+{
+  "name": "@hemyn/create-moon",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
+  },
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "co": "^4.6.0",
+    "commander": "^9.2.0",
+    "inquirer": "^8.2.4",
+    "mkdirp": "^1.0.4",
+    "nunjucks": "^3.2.3",
+    "standard-version": "^9.3.2"
+  }
+}
