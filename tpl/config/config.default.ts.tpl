@@ -20,6 +20,12 @@ export default (appInfo: EggAppInfo) => {
   //   },
   // };
 
+  // logstash
+  // config.logstash = {
+  //   host: "logstash",
+  //   port: 15044,
+  // };
+
   config.onerror = {
     errorPageUrl: (err, ctx) => {
       ctx.logger.info(

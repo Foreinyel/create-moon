@@ -23,7 +23,7 @@
     "clean": "ets clean"
   },
   "dependencies": {
-    "@hemyn/moon": "0.0.6"
+    "@hemyn/moon": "^0.0.7"
   },
   "devDependencies": {
     "@types/mocha": "^2.2.40",
