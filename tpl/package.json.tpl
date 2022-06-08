@@ -23,7 +23,7 @@
     "clean": "ets clean"
   },
   "dependencies": {
-    "@hemyn/moon": "^0.0.13"
+    "@hemyn/moon": "^0.0.21"
   },
   "devDependencies": {
     "@types/mocha": "^2.2.40",
@@ -54,5 +54,8 @@
     "coverage"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "resolutions": {
+    "node-zookeeper-client": "1.1.1"
+  }
 }
